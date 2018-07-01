@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #fdc97b;
+  color: #7a4b04;
+  background-image: url('../images/background.png');
+  background-repeat: repeat;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  background:#fdc97b;
+  margin-top: 5vh;
+  border-radius: 25px;
+  border: 5px  #7a4b04;
+  padding: 0 40px 20px 40px;
+}
+
+.jumbotron {
+  background:  #fff;
+  text-shadow: 2px 2px 0px #fdc97b;
+}
+
+.btn {
+  background: #7a4b04;
+  color: #fff;
+  border: 1px #000 dotted;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+}
+
+.btn:hover {
+  color: #fff;
+  background: #000;
+  border: 1px #f1fcb4 dotted;
+}
+
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+  vertical-align: middle;
+}
+
+.table>thead {
+  color: #7a4b04;
+}
+
+.current-time {
+  color: #7a4b04;
+  
+
+}
+
+.panel {
+  background: none;
+  border: 1px solid #fff;
+}
+
+.panel-title {
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #7a4b04;
+  border-bottom: 1px solid #fff;
+  margin: 15px 0;
+  padding: 15 0 15px 0;
+}
+
+.help-block {
+  color: #fff;
+}
